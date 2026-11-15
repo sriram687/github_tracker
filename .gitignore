@@ -22,7 +22,6 @@ backend/build/
 # -------------------------------------
 # Environment Variables
 # -------------------------------------
-.env
 .env.*.local
 
 # -------------------------------------
@@ -45,7 +44,6 @@ temp/
 .npm/
 .yarn/
 .yarn-integrity
-.vscode/.tsbuildinfo
 
 # -------------------------------------
 # Coverage Reports
@@ -61,7 +59,6 @@ docker-compose.override.yml
 # -------------------------------------
 # Editor/IDE Files
 # -------------------------------------
-.vscode/
 !.vscode/extensions.json
 .idea/
 *.sublime-workspace
@@ -81,6 +78,4 @@ docker-compose.override.yml
 Thumbs.db
 *.swp
 .AppleDouble
-branch_structure.json
-temp_auto_push.bat
-temp_interactive_push.bat
+config.bat
